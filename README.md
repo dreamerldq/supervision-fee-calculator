@@ -1,21 +1,13 @@
-# my-project
+# 监理费计算器
+> 这是一款微信小程序，使用mpvue创建。
+## 应用入口
+通过微信 发现-->小程序  搜索“监理费计算器” 便可查到应用。
+## 使用方式
+通过输入投资额，点击快速计算就可以得到相应的监理费用，可以通过下方的各种调整系数来改变计算公式的系数。
 
-> A Mpvue project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 项目PC端启动&&修改方式
+* 克隆本仓库
+* npm install 下载依赖包
+* npm run dev 开启应用，会在本地项目文件中生成一个dist文件
+* 打开微信小程序开发者工具，选择dist文件，就可以在模拟器中使用小程序。
+* 模拟器会实时相应源码的操作
